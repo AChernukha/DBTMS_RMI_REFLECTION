@@ -1,4 +1,4 @@
-package org.dblite.rmi;
+package org.dblite.database;
 
 import org.dblite.database.Table;
 import org.dblite.field.Cell;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.ArrayList;
 
-public interface DBTMS extends java.rmi.Remote {
+public interface DBTMS {
     
     public void setDB(String name, String path) throws IOException;
     public ArrayList<String> getListTables(String dbName) throws IOException;

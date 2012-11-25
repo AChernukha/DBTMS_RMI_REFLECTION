@@ -1,12 +1,8 @@
-package org.dblite.rmi;
+package org.dblite.database;
 
-import org.dblite.database.Database;
-import org.dblite.database.Table;
 import org.dblite.field.Cell;
 
 import java.io.IOException;
-import java.rmi.RemoteException;
-import java.rmi.server.UnicastRemoteObject;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Map;
